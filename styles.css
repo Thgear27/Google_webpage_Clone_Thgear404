@@ -109,6 +109,7 @@ html {
 .browser-bar input:focus,
 .browser-bar input {
     width: 490px;
+    max-width: 490px;
     border: none;
     outline: none;
     display: flex;
@@ -184,6 +185,10 @@ footer {
     border-bottom: 1px solid #dadce0;
 }
 
+.footer-bar a, span {
+    color: #70757a;
+}
+
 .footer-bar div {
     width: 100%;
 }
@@ -194,13 +199,13 @@ footer a:hover {
 }
 
 .left-footer-bar {
-    margin-left: 20px;
+    margin-left: 25px;
     display: flex;
     gap: 40px;
 }
 
 .right-footer-bar {
-    margin-right: 20px;
+    margin-right: 25px;
     display: flex;
     justify-content: end;
     gap: 40px;
